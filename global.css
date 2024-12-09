@@ -1,0 +1,172 @@
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* root */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  padding: 0px 25px;
+  background-color: #1a1a19;
+  color: cyan;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  width: auto;
+  padding: 10px 20px;
+  font-size: 25px;
+}
+nav ul {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+/* color decalration */
+nav a {
+  color: cyan;
+}
+.logo {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+/* home styling */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.home section aside img {
+  height: 55vh;
+  aspect-ratio: 1/1;
+  border-radius: 50% 10% 50% 10%;
+}
+.home section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+  padding: 0px 90px;
+}
+.home article {
+  font-size: 20px;
+  color: cyan;
+}
+article h1 {
+  font-size: 60px;
+  letter-spacing: 2px;
+  color: cyan;
+}
+article p {
+  position: absolute;
+  font-size: 40px;
+  color: cyan;
+}
+
+.about-content {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+}
+
+.aboutMe {
+  margin-bottom: 30vh;
+  width: 80%;
+  margin-left: 150px;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.aboutMe div p {
+    font-size: 20px;
+}
+
+.aboutPic {
+  height: 45vh;
+  border-radius: 50% 10% 50% 10%;
+}
+
+.game {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.gameContent {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: 80%;
+  margin-left: 300px;
+  height: 100vh;
+}
+.gamePC {
+  height: 35vh;
+  border-radius: 25px;
+}
+.gameDc {
+  display: flex;
+}
+/* contact styling */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+  gap: 30px;
+}
+
+form {
+  width: 600px;
+  border: 1px solid cyan;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 30px;
+}
+form input,
+form textarea,
+form button {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid cyan;
+  color: cyan;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+form button {
+  transition: .2s;
+}
+form button:hover {
+  background-color: cyan;
+  color: #1a1a19;
+}
+.contact section {
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+}
+.contact section a {
+  color: cyan;
+}
+/* webkit scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
