@@ -1,5 +1,5 @@
 var typed = new Typed('#typed', {
-    strings: ['Bsit', 'Nc2 holder'],
+    strings: ['Bsit', 'Gamer'],
     typeSpeed: 100,
     loop: true,
     loopCount: Infinity,
